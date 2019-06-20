@@ -14,8 +14,6 @@ const burger = props => {
       return arr.concat(el);
     }, []);
 
-  console.log(transformedIngredients);
-
   return (
     <div className={classes.Burger}>
       <BurgerIngredient type='bread-top' />

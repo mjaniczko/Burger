@@ -4,10 +4,12 @@ import classes from './Toolbar.css';
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
-const toolbar = props => (
+const toolbar = () => (
   <header className={classes.Toolbar}>
     <div>MENU</div>
-    <Logo />
+    <div className={classes.Logo}>
+      <Logo />
+    </div>
     <nav>
       <NavigationItems />
     </nav>

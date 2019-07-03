@@ -81,10 +81,11 @@ class ContactData extends Component {
         elementConfig: {
           options: [
             { value: 'fastest', displayValue: 'Fastest' },
-            { value: 'chea[est', displayValue: 'Cheapest' }
+            { value: 'cheapest', displayValue: 'Cheapest' }
           ]
         },
-        value: '',
+        value: 'fastest',
+        validation: {},
         valid: true
       }
     },
